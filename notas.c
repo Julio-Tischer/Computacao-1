@@ -8,7 +8,7 @@ int main(){
 
     media = (nota1+nota2+nota3)/3;
 
-    if (media==8){
+    if (media>8){
         printf("\n Parabens! Aprovado com distinção e media %f \n",media);
     }
 

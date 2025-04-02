@@ -9,7 +9,7 @@ int main(){
     if(hora>1 && min>15){
 
         printf("Temos essa quantidade de segundos disponiveis: %d\n\n",hora*3600+min*60+seg);
-        //Verifica se hora  maior que 1 e se minutos são maiores que 15 e calculo os segundos
+        //Verifica se hora maior que 1 e se minutos são maiores que 15 e calculo os segundos
     }
 
     else{

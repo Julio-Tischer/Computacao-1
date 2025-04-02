@@ -23,7 +23,6 @@ int main(){
 
     if (hora>24 || min>60 || seg>60){
 
-
         int segundostotais = hora*3600+min*60+seg;
         printf("esse horario não é muito real... Mas temos %d segundos, isto são %.2f dias",segundostotais, segundostotais/86400.0);
         //Isso é um presentinho que calcula quantos dias o tempo da se o horario for invalido

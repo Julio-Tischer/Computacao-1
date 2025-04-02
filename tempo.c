@@ -21,7 +21,7 @@ int main(){
     printf("Horario: %02d:%02d:%02d\n\n", hora, min, seg);
     //isso printa o horario estabelecido, mesmo que invalido.
 
-    if (hora>24 || min>60 || seg>60){
+    if (hora>23 || min>59 || seg>59){
 
         int segundostotais = hora*3600+min*60+seg;
         printf("esse horario não é muito real... Mas temos %d segundos, isto são %.2f dias",segundostotais, segundostotais/86400.0);

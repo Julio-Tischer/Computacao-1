@@ -7,10 +7,10 @@ int main(){
     scanf("%d %d %d", &hora, &min, &seg);
 
     if(hora>1 && min>15){
-        printf("Temos varios segundos: %d\n",hora*3600+min*60+seg);
+        printf("Temos essa quantidade de segundos disponiveis: %d\n",hora*3600+min*60+seg);
     }
     else{
-        printf("temos %f minutos\n",hora*60.0+min+seg/60);
+        printf("temos %.1f minutos\n",hora*60.0+min+seg/60);
     }
 
     printf("Horario: %02d:%02d:%02d\n", hora, min, seg);

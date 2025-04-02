@@ -19,7 +19,7 @@ int main(){
     }
 
     printf("Horario: %02d:%02d:%02d\n\n", hora, min, seg);
-    //isso printa o horario estabelecido, mesmo que invalido
+    //isso printa o horario estabelecido, mesmo que invalido.
 
     if (hora>24 || min>60 || seg>60){
 
@@ -27,6 +27,7 @@ int main(){
         int segundostotais = hora*3600+min*60+seg;
         printf("esse horario não é muito real... Mas temos %d segundos, isto são %.2f dias",segundostotais, segundostotais/86400.0);
         //Isso é um presentinho que calcula quantos dias o tempo da se o horario for invalido
+        //Para descobrir quantidade de dias, basta dividir quantidade de segundos por segundos em um dia (86400 segundos)
     }
 
     return 0;

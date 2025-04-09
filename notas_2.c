@@ -10,7 +10,7 @@ int main(){
     Media = (Nota1+Nota2+Nota3)/3.0;
     //Primeiro definimos nossas variaveis todas como float, então pegamos as notas e calculamos a media
 
-    printf("\n\n Por favor insira a sua frequencia (sem usar porcentagem)\t");
+    printf("\n\n Por favor insira a sua frequencia \t");
     scanf("%f",&Frequencia);
     //Isto pega a frequencia
 

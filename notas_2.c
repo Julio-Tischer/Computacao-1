@@ -5,10 +5,10 @@ int main(){
     setlocale(LC_ALL,"");
 
     float Nota1, Nota2, Nota3, Media, Frequencia;
-    printf("Seja bem-vindo, para saber seu status de aprovação, por favor digite suas notas (com espaço entre cada uma)\t");
+    printf("Seja bem-vindo, para saber seu status de aprovaÃ§Ã£o, por favor digite suas notas (com espaÃ§o entre cada uma)\t");
     scanf("%f %f %f",&Nota1,&Nota2,&Nota3);
     Media = (Nota1+Nota2+Nota3)/3.0;
-    //Primeiro definimos nossas variaveis todas como float, então pegamos as notas e calculamos a media
+    //Primeiro definimos nossas variaveis todas como float, entÃ£o pegamos as notas e calculamos a media
 
     printf("\n\n Por favor insira a sua frequencia (sem usar porcentagem)\t");
     scanf("%f",&Frequencia);
@@ -16,19 +16,19 @@ int main(){
 
     if (Frequencia>= 75 && Media>8.0){
 
-        printf("\n\n Parabens! Você foi aprovado com DISTINÇÃO. Sua media é %.1f e sua frequencia foi %.1f",Media,Frequencia);
+        printf("\n\n Parabens! VocÃª foi aprovado com DISTINÃ‡ÃƒO. Sua media Ã© %.1f e sua frequencia foi %.1f%%",Media,Frequencia);
     }
     else if (Media>=6 && Frequencia >= 75){
 
-        printf("\n\n Parabens, você esta aprovado. Sua media é %.1f e sua frequencia foi %.1f",Media,Frequencia);
+        printf("\n\n Parabens, vocÃª esta aprovado. Sua media Ã© %.1f e sua frequencia foi %.1f%%",Media,Frequencia);
     }
     else if ((Media>=4 && Media<=6 && Frequencia>=75 && Frequencia>50)||(Media>=6 && Frequencia<75 && Frequencia>50)||(Media>=4 && Frequencia<75 && Frequencia>50)){
 
-        printf("\n\n Melhor se esforçar, você esta em exame com media %.1f e frequencia %.1f",Media,Frequencia);
+        printf("\n\n Melhor se esforÃ§ar, vocÃª esta em exame com media %.1f e frequencia %.1f%%",Media,Frequencia);
     }
     else if (Media<4 || Frequencia<=50){
 
-        printf("\n\n Você esta reprovado, pois sua nota e/ou frequencia foram muito baixas. Sua media foi de %.1f e frequencia foi de %.1f",Media,Frequencia);
+        printf("\n\n VocÃª esta reprovado, pois sua nota e/ou frequencia foram muito baixas. Sua media foi de %.1f e frequencia foi de %.1f%%",Media,Frequencia);
     }
     else{
 
@@ -36,6 +36,6 @@ int main(){
         return 400;
     }
 
-    printf("\n\n Isto é tudo.\n\n");
+    printf("\n\n Isto Ã© tudo.\n\n");
     return 0;
 }

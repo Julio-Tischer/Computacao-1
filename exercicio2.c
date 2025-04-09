@@ -12,7 +12,7 @@ int main(){
         return 1;
     }
 
-    while (i<=1100){
+    while (i<=100){
         if (i%n==0){
             printf("%d\n",i);
         }

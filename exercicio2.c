@@ -13,7 +13,7 @@ int main(){
     }
 
     while (i<=100){
-        if (i%n==0){
+        if (i%n==2){
             printf("%d\n",i);
         }
         i++;

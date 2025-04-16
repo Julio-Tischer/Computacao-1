@@ -3,7 +3,7 @@
 int main(){
     setlocale(LC_ALL,"");
 
-    float soma,positivos,numero = 0;
+    float soma = 0,positivos = 0,numero = 0;
 
     while (numero != -1000){
         printf("Digite um número, para encerrar digite -1000\t");

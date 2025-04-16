@@ -18,7 +18,8 @@ int main(){
         //detecta se o numero é positivo, se for incrementa o contador de positvos e calcula soma
         printf("\n");
     }
-
-    printf("\nForam escritos %.0f positivos, e a média deles é de %.2f\n",positivos,soma/positivos);
+    if (positivos>0){
+        printf("\nForam escritos %.0f positivos, e a média deles é de %.2f\n",positivos,soma/positivos);
+    }
     return 0;
 }

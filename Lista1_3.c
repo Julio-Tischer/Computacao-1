@@ -28,5 +28,4 @@ int main() {
     printf("\n\nTodas as %d médias foram calculadas com sucesso!\n",casos);
 
     return 0;
-
 }

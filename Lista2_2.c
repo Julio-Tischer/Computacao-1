@@ -12,7 +12,7 @@ int main(){
         //detecta se o scanf recebeu um caracter, se sim retorna 1
 
         if (numero>0){
-            positivos=positivos+1;
+            positivos++;
             soma = soma+numero;
         }
         //detecta se o numero é positivo, se for incrementa o contador de positvos e calcula soma

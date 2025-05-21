@@ -1,14 +1,14 @@
 #include<stdio.h>
 #define N 5
 
-void zeroMatrix(int [N][N]);
+void stpMatrix(int [N][N]);
 void mtrxPrint(int [N][N]);
 
 int main(){
 
     int i,j;
     int pascal[N][N];
-    zeroMatrix(pascal);
+    stpMatrix(pascal);
 
     for(i=0;i<N;i++){
         for (j=1;j<i;j++){
@@ -19,7 +19,7 @@ int main(){
     mtrxPrint(pascal);
 }
 
-void zeroMatrix(int matrix [N][N]){
+void stpMatrix(int matrix [N][N]){
     int i,j;
     for (i=0;i<N;i++){
         for (j=0;j<N;j++){
